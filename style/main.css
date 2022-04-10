@@ -1,0 +1,134 @@
+:root{
+    --azul: #2E86C1;
+    --preto: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(152,34,195);
+    background: linear-gradient(0deg, rgba(152,34,195,1) 0%, rgba(34,193,195,1) 100%);
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: #fff;
+    font-family: 'Poppins', Bold;
+    font-size: 40px;
+}
+ul.nav { 
+	margin:0; 
+	padding:0;
+	}
+	
+ul.nav li {
+	list-style:none;	
+	display:inline;
+	}
+ul.nav li a {
+	float:left;
+    border-start-start-radius: 10cm;
+	width:10.0em;
+	font:25px  Poppins bold, Arial, Helvetica, 
+	sans-serif;
+	background:#e69808;
+	color:rgb(255, 255, 255);
+	text-align:center;
+	padding:1  0.8em 0.8em  1;
+	text-decoration:none;
+    align-items: center;
+	}
+    ul.nav a:hover{
+    background:rgb(216, 195, 5);
+    color:#fff;
+    border-color:rgb(7, 180, 248));
+    }
+    .banner{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .banner video{
+      position: fixed;
+      top: 0;
+      left:0;
+      object-fit: cover;
+      width: 100%;
+      z-index: -1;
+    }
+    .games{
+    display: flex;
+    background-image: 
+    margin: 20px;
+    justify-content: center;
+    overflow: hidden;  
+    }
+
+
+/*Filmes Principais*/
+
+.filme-principal{
+    font-size: 16px;
+    height: 800px;
+
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.titulo{
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.botao{
+    background-color:rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 25px;
+    margin-right: 15px;
+    font-size: 14px;
+    border-radius: 30px 30px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: rgb(233, 192, 10);
+    color: rgb(109, 102, 9);
+}
+.botao i{
+    margin-right: 10px;
+}
+.container{
+    margin-left: 40px;
+
+}
+.filme-principal .container{
+    width: 0%;
+}
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+.carrosel-filmes{
+    margin-top: 30px;
+}
+
